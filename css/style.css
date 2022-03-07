@@ -1,0 +1,9 @@
+.espacio{
+    padding-top: 300px;
+}
+
+.Sticky {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
