@@ -4,6 +4,6 @@
 
 .Sticky {
     position: sticky;
-    top: 0px;
+    top: 5px;
     left: 0px;
 }
