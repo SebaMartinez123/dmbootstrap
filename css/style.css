@@ -4,6 +4,26 @@
 
 .Sticky {
     position: sticky;
-    top: 5px;
+    top: 0px;
     left: 0px;
 }
+
+div.animame {
+    width: 300px; height: 70px;
+    background-color: rgb(196, 196, 196);
+    border: solid 1px;
+}
+
+
+
+@keyframes animacion {
+    from {top: auto;}
+    to {bottom: auto;
+        transform: skewX(25deg);
+    }
+
+} 
+.animame {
+    animation: animacion 1s linear 1s infinite alternate;
+}
+    
